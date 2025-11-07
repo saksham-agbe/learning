@@ -140,8 +140,7 @@ tables to direct data across networks. It's responsible for the logical connecti
 * traceroute google.com -> Shows path packet
 * hostname -i -> Check if hostname resolves
 
-Submited by Saksham
-7-11-2025
+
 
 
 
