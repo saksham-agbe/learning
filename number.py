@@ -1,0 +1,6 @@
+print(3)
+print(3 + 5)
+print(100)
+print(8 * 2)
+print(8 - 2)
+print(8 / 2)
