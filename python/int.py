@@ -1,0 +1,5 @@
+x , y , z = (12, -12345 , 2E2)
+print(x, y, z)
+print(type(x))
+print(type(y))
+print(type(z))
