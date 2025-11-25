@@ -1,0 +1,1239 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "check_if",
+        "importPath": "src.conditions",
+        "description": "src.conditions",
+        "isExtraImport": true,
+        "detail": "src.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "check_else",
+        "importPath": "src.conditions",
+        "description": "src.conditions",
+        "isExtraImport": true,
+        "detail": "src.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "check_elif",
+        "importPath": "src.conditions",
+        "description": "src.conditions",
+        "isExtraImport": true,
+        "detail": "src.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "check_statement",
+        "importPath": "src.conditions",
+        "description": "src.conditions",
+        "isExtraImport": true,
+        "detail": "src.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "check_vote",
+        "importPath": "src.conditions",
+        "description": "src.conditions",
+        "isExtraImport": true,
+        "detail": "src.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "check_elif",
+        "kind": 2,
+        "importPath": "src.conditions.elif_examples",
+        "description": "src.conditions.elif_examples",
+        "peekOfCode": "def check_elif():\n  a = 33\n  b = 33\n  if b > a:\n    print(\"b is greater than a\")\n  elif a == b:\n    print(\"a and b are equal\")",
+        "detail": "src.conditions.elif_examples",
+        "documentation": {}
+    },
+    {
+        "label": "check_else",
+        "kind": 2,
+        "importPath": "src.conditions.else_examples",
+        "description": "src.conditions.else_examples",
+        "peekOfCode": "def check_else():\n  a = 200\n  b = 33\n  if b > a:\n    print(\"b is greater than a\")\n  elif a == b:\n    print(\"a and b are equal\")\n  else:\n    print(\"a is greater than b\")",
+        "detail": "src.conditions.else_examples",
+        "documentation": {}
+    },
+    {
+        "label": "check_if",
+        "kind": 2,
+        "importPath": "src.conditions.if_examples",
+        "description": "src.conditions.if_examples",
+        "peekOfCode": "def check_if():\n  a = 33\n  b = 200\n  if b > a:\n    print(\"b is greater than a\")",
+        "detail": "src.conditions.if_examples",
+        "documentation": {}
+    },
+    {
+        "label": "check_statement",
+        "kind": 2,
+        "importPath": "src.conditions.statement",
+        "description": "src.conditions.statement",
+        "peekOfCode": "def check_statement():\n    print(\"My name is Saksham\")\nprint(\"I am from kurukshetra Haryana\")\nprint(\"Have a good day !\")",
+        "detail": "src.conditions.statement",
+        "documentation": {}
+    },
+    {
+        "label": "check_vote",
+        "kind": 2,
+        "importPath": "src.conditions.vote",
+        "description": "src.conditions.vote",
+        "peekOfCode": "def check_vote():\n    age = int(input(\"Enter your age: \"))\n    if age >= 18:\n        print(\"You are eligible to vote.\")\n    else:\n        print(\"You are not eligible to vote.\")",
+        "detail": "src.conditions.vote",
+        "documentation": {}
+    },
+    {
+        "label": "dict",
+        "kind": 5,
+        "importPath": "src.data_types.dicts.dict",
+        "description": "src.data_types.dicts.dict",
+        "peekOfCode": "dict = {\n    \"brand\" : \"Ford\",\n    \"model\" : \"Mustang\",\n    \"year\"  : \"1960\",\n}\nprint(dict)\nfamily = {\n    \"Child 1\":{\n        \"name\" : \"Jeorge\",\n        \"age\" : 24,",
+        "detail": "src.data_types.dicts.dict",
+        "documentation": {}
+    },
+    {
+        "label": "family",
+        "kind": 5,
+        "importPath": "src.data_types.dicts.dict",
+        "description": "src.data_types.dicts.dict",
+        "peekOfCode": "family = {\n    \"Child 1\":{\n        \"name\" : \"Jeorge\",\n        \"age\" : 24,\n        \"year\" : 2002\n    },\n    \"Child 2\":{\n        \"name\" : \"Emila\",\n        \"age\" : \"20\" ,\n        \"year\" : 2004",
+        "detail": "src.data_types.dicts.dict",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "src.data_types.dicts.dict",
+        "description": "src.data_types.dicts.dict",
+        "peekOfCode": "names = [\"football\" , \"Cricket\"]\nprint(names[1])\nfor x in names:\n    print(x)\n#set = {\"India\" , 1 , {\"name\" : \"Saksham\"} , \"India\"}\nset = [\"India\" , 1 , {\"name\" : \"Saksham\"} , \"India\"]\n# countries = list(set)\nprint(set)\nprint(f\"countries = {type(set[2])}\")",
+        "detail": "src.data_types.dicts.dict",
+        "documentation": {}
+    },
+    {
+        "label": "#set",
+        "kind": 5,
+        "importPath": "src.data_types.dicts.dict",
+        "description": "src.data_types.dicts.dict",
+        "peekOfCode": "#set = {\"India\" , 1 , {\"name\" : \"Saksham\"} , \"India\"}\nset = [\"India\" , 1 , {\"name\" : \"Saksham\"} , \"India\"]\n# countries = list(set)\nprint(set)\nprint(f\"countries = {type(set[2])}\")",
+        "detail": "src.data_types.dicts.dict",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "kind": 5,
+        "importPath": "src.data_types.dicts.dict",
+        "description": "src.data_types.dicts.dict",
+        "peekOfCode": "set = [\"India\" , 1 , {\"name\" : \"Saksham\"} , \"India\"]\n# countries = list(set)\nprint(set)\nprint(f\"countries = {type(set[2])}\")",
+        "detail": "src.data_types.dicts.dict",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"countries",
+        "kind": 5,
+        "importPath": "src.data_types.dicts.dict",
+        "description": "src.data_types.dicts.dict",
+        "peekOfCode": "print(f\"countries = {type(set[2])}\")",
+        "detail": "src.data_types.dicts.dict",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "src.data_types.lists.crudlist",
+        "description": "src.data_types.lists.crudlist",
+        "peekOfCode": "mylist = [\"BMW\",\"Honda\", \"Hyundai\"]\nmylist.append(\"Maruti\")\nmylist.insert(1,\"Hummer\")\nprint(mylist)\n# Read\nprint(mylist[1]) # indexing\nprint(mylist[1:5]) # slicing\n# Update\nmylist[0] = \"Ford\"\nprint(mylist)",
+        "detail": "src.data_types.lists.crudlist",
+        "documentation": {}
+    },
+    {
+        "label": "mylist[0]",
+        "kind": 5,
+        "importPath": "src.data_types.lists.crudlist",
+        "description": "src.data_types.lists.crudlist",
+        "peekOfCode": "mylist[0] = \"Ford\"\nprint(mylist)\n# Delete\nmylist.remove(\"Hummer\") \n# mylist.pop()\n# del mylist[0]\n# del mylist\n# print(mylist)\nmylist.clear\nprint(mylist)",
+        "detail": "src.data_types.lists.crudlist",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "mylist = [\"India\", \"Israel\", \"Russia\"]\nprint(mylist)\nlist1 = [\"India\", \"Isreal\", \"Russia\"]\nprint(len(list1))\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nprint(type(list1))\nthislist = [\"BMW\", \"Hyundai\", \"Honda\"]\nif \"BMW\" in thislist:\n    print(\"yes,'BMW' is present in the list\")\nthislist1 = [\"BMW\", \"Hyundai\", \"Honda\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Isreal\", \"Russia\"]\nprint(len(list1))\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nprint(type(list1))\nthislist = [\"BMW\", \"Hyundai\", \"Honda\"]\nif \"BMW\" in thislist:\n    print(\"yes,'BMW' is present in the list\")\nthislist1 = [\"BMW\", \"Hyundai\", \"Honda\"]\nprint(thislist1[1])\nthislist2 = [\"India\", \"Israel\", \"Russia\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\nprint(type(list1))\nthislist = [\"BMW\", \"Hyundai\", \"Honda\"]\nif \"BMW\" in thislist:\n    print(\"yes,'BMW' is present in the list\")\nthislist1 = [\"BMW\", \"Hyundai\", \"Honda\"]\nprint(thislist1[1])\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2[1] = \"USA\" \nprint(thislist2)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "thislist",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "thislist = [\"BMW\", \"Hyundai\", \"Honda\"]\nif \"BMW\" in thislist:\n    print(\"yes,'BMW' is present in the list\")\nthislist1 = [\"BMW\", \"Hyundai\", \"Honda\"]\nprint(thislist1[1])\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2[1] = \"USA\" \nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.append(\"USA\")",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "thislist1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "thislist1 = [\"BMW\", \"Hyundai\", \"Honda\"]\nprint(thislist1[1])\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2[1] = \"USA\" \nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.append(\"USA\")\nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.insert(2, \"USA\")",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "thislist2",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "thislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2[1] = \"USA\" \nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.append(\"USA\")\nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.insert(2, \"USA\")\nprint(thislist2)\nlist1 = [\"India\", \"Israel\", \"Russia\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "thislist2[1]",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "thislist2[1] = \"USA\" \nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.append(\"USA\")\nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.insert(2, \"USA\")\nprint(thislist2)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist2 = [\"Bmw\", \"Hyundai\", \"Honda\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "thislist2",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "thislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.append(\"USA\")\nprint(thislist2)\nthislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.insert(2, \"USA\")\nprint(thislist2)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist2 = [\"Bmw\", \"Hyundai\", \"Honda\"]\nlist1.extend(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "thislist2",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "thislist2 = [\"India\", \"Israel\", \"Russia\"]\nthislist2.insert(2, \"USA\")\nprint(thislist2)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist2 = [\"Bmw\", \"Hyundai\", \"Honda\"]\nlist1.extend(list2)\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.clear()\nprint(list1)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\nlist2 = [\"Bmw\", \"Hyundai\", \"Honda\"]\nlist1.extend(list2)\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.clear()\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop()\nprint(list1)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list2 = [\"Bmw\", \"Hyundai\", \"Honda\"]\nlist1.extend(list2)\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.clear()\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop()\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.clear()\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop()\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop(1)\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop()\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop(1)\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\ndel list1[2]\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\nlist1.pop(1)\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\ndel list1[2]\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\ndel list1\nprint(list1)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\ndel list1[2]\nprint(list1)\nlist1 = [\"India\", \"Israel\", \"Russia\"]\ndel list1\nprint(list1)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list",
+        "description": "src.data_types.lists.list",
+        "peekOfCode": "list1 = [\"India\", \"Israel\", \"Russia\"]\ndel list1\nprint(list1)",
+        "detail": "src.data_types.lists.list",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "fruits = [\"Apple\", \"Mango\", \"Banana\", \"Cherry\", \"Kiwi\"]\nlist = []\nfor x in fruits:\n    if \"a\" in x:\n        list.append(x)\nprint(list)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nmylist = list1[:]\nprint(mylist)\nlist1 = [\"India\",\"Rusia\", \"Israel\", \"USA\"]",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list = []\nfor x in fruits:\n    if \"a\" in x:\n        list.append(x)\nprint(list)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nmylist = list1[:]\nprint(mylist)\nlist1 = [\"India\",\"Rusia\", \"Israel\", \"USA\"]\nmylist = list1.copy()",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list1 = [\"India\", \"Russia\", \"Israel\"]\nmylist = list1[:]\nprint(mylist)\nlist1 = [\"India\",\"Rusia\", \"Israel\", \"USA\"]\nmylist = list1.copy()\nprint(mylist)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist3 = list1 + list2\nprint(list3)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "mylist = list1[:]\nprint(mylist)\nlist1 = [\"India\",\"Rusia\", \"Israel\", \"USA\"]\nmylist = list1.copy()\nprint(mylist)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist3 = list1 + list2\nprint(list3)\nlist1 = [\"India\", \"Russia\", \"Israel\"]",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list1 = [\"India\",\"Rusia\", \"Israel\", \"USA\"]\nmylist = list1.copy()\nprint(mylist)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist3 = list1 + list2\nprint(list3)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "mylist = list1.copy()\nprint(mylist)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist3 = list1 + list2\nprint(list3)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist3 = list1 + list2\nprint(list3)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist3 = list1 + list2\nprint(list3)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list3",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list3 = list1 + list2\nprint(list3)\nlist1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list1 = [\"India\", \"Russia\", \"Israel\"]\nlist2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "src.data_types.lists.list1",
+        "description": "src.data_types.lists.list1",
+        "peekOfCode": "list2 = [\"BMW\", \"Honda\", \"Hyundai\"]\nlist1.append(list2)\nprint(list1)",
+        "detail": "src.data_types.lists.list1",
+        "documentation": {}
+    },
+    {
+        "label": "myset",
+        "kind": 5,
+        "importPath": "src.data_types.sets.crudset",
+        "description": "src.data_types.sets.crudset",
+        "peekOfCode": "myset = {\"Saksham\", \"Ankit\",\"Soham\", \"Devesh\"}\nmyset.add(\"Chitranshu\")\nmyset.update([\"Chirag\",\"Akshit\"])\n# Read\nprint(myset[3])\n# print(myset)",
+        "detail": "src.data_types.sets.crudset",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set1 = {\"Haryana\", \"Rajasthan\", \"Uttrakhand\"}\nset2 = {\"Chandigarh\",\"Jaipur\",\"Dehradun\"}\nset3 = set1.union(set2)\nprint(set3)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set2 = {\"Chandigarh\",\"Jaipur\",\"Dehradun\"}\nset3 = set1.union(set2)\nprint(set3)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set3 = set1.union(set2)\nprint(set3)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set4",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "myset",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "myset = set1.union(set2, set3, set4)\nprint(myset)\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set4",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "myset",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "myset = set1 | set2 | set3 |set4\nprint(myset)\nset = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "set = {\"a\",\"b\",\"c\"}\ntuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "tuple",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "tuple = (1 , 2 , 3)\nz = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "src.data_types.sets.set",
+        "description": "src.data_types.sets.set",
+        "peekOfCode": "z = set.union(tuple)\nprint(z)",
+        "detail": "src.data_types.sets.set",
+        "documentation": {}
+    },
+    {
+        "label": "mytuple",
+        "kind": 5,
+        "importPath": "src.data_types.tuple.crudtuple",
+        "description": "src.data_types.tuple.crudtuple",
+        "peekOfCode": "mytuple = (\"India\", \"Israel\", \"Russia\", \"USA\")\n# Read\nprint(mytuple[1])\nprint(mytuple[0:3])\n# Update\ntemp = list(mytuple)\ntemp[0] = \"Japan\"\nmytuple = tuple(temp)\nprint(mytuple)\n# Delete",
+        "detail": "src.data_types.tuple.crudtuple",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "src.data_types.tuple.crudtuple",
+        "description": "src.data_types.tuple.crudtuple",
+        "peekOfCode": "temp = list(mytuple)\ntemp[0] = \"Japan\"\nmytuple = tuple(temp)\nprint(mytuple)\n# Delete\ndel mytuple",
+        "detail": "src.data_types.tuple.crudtuple",
+        "documentation": {}
+    },
+    {
+        "label": "temp[0]",
+        "kind": 5,
+        "importPath": "src.data_types.tuple.crudtuple",
+        "description": "src.data_types.tuple.crudtuple",
+        "peekOfCode": "temp[0] = \"Japan\"\nmytuple = tuple(temp)\nprint(mytuple)\n# Delete\ndel mytuple",
+        "detail": "src.data_types.tuple.crudtuple",
+        "documentation": {}
+    },
+    {
+        "label": "mytuple",
+        "kind": 5,
+        "importPath": "src.data_types.tuple.crudtuple",
+        "description": "src.data_types.tuple.crudtuple",
+        "peekOfCode": "mytuple = tuple(temp)\nprint(mytuple)\n# Delete\ndel mytuple",
+        "detail": "src.data_types.tuple.crudtuple",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "x = 1\nprint(x)\nprint(type(x))\nx = 1.1\nprint(x)\nprint(type(x))\nx = True\nprint(x)\nprint(type(x))\nx = 5+2j",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "x = 1.1\nprint(x)\nprint(type(x))\nx = True\nprint(x)\nprint(type(x))\nx = 5+2j\nprint(x)\nprint(type(x))\ny = \"Hello, World !\"",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "x = True\nprint(x)\nprint(type(x))\nx = 5+2j\nprint(x)\nprint(type(x))\ny = \"Hello, World !\"\nprint(y)\nprint(type(y))\nz = (\"BMW\", \"Hyundai\", \"Honda\")",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "x = 5+2j\nprint(x)\nprint(type(x))\ny = \"Hello, World !\"\nprint(y)\nprint(type(y))\nz = (\"BMW\", \"Hyundai\", \"Honda\")\nprint(z)\nprint(type(z))\nl = [\" Royal-enfield\", \"TVS\", \"Yamaha\"]",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "y = \"Hello, World !\"\nprint(y)\nprint(type(y))\nz = (\"BMW\", \"Hyundai\", \"Honda\")\nprint(z)\nprint(type(z))\nl = [\" Royal-enfield\", \"TVS\", \"Yamaha\"]\nprint(l)\nprint(type(l))\ns = {\"Agbe\", \"Microsoft\", \"Amazon\"}",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "z = (\"BMW\", \"Hyundai\", \"Honda\")\nprint(z)\nprint(type(z))\nl = [\" Royal-enfield\", \"TVS\", \"Yamaha\"]\nprint(l)\nprint(type(l))\ns = {\"Agbe\", \"Microsoft\", \"Amazon\"}\nprint(s)\nprint(type(s))\nd = {\"Name\":\"Saksham\", \"Age\":22, \"Name\":\"Ankit\",\"Age\":22 }",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "l = [\" Royal-enfield\", \"TVS\", \"Yamaha\"]\nprint(l)\nprint(type(l))\ns = {\"Agbe\", \"Microsoft\", \"Amazon\"}\nprint(s)\nprint(type(s))\nd = {\"Name\":\"Saksham\", \"Age\":22, \"Name\":\"Ankit\",\"Age\":22 }\nprint(d)\nprint(type(d))",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "s = {\"Agbe\", \"Microsoft\", \"Amazon\"}\nprint(s)\nprint(type(s))\nd = {\"Name\":\"Saksham\", \"Age\":22, \"Name\":\"Ankit\",\"Age\":22 }\nprint(d)\nprint(type(d))",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "src.data_types.datatype1.0",
+        "description": "src.data_types.datatype1.0",
+        "peekOfCode": "d = {\"Name\":\"Saksham\", \"Age\":22, \"Name\":\"Ankit\",\"Age\":22 }\nprint(d)\nprint(type(d))",
+        "detail": "src.data_types.datatype1.0",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "src.functions.function",
+        "description": "src.functions.function",
+        "peekOfCode": "def my_function():\n  print(\"Hello from a function\")\nmy_function()\ndef get_greeting():\n  return(\"Good evening\")\n# message = get_greeting()\nprint(get_greeting())\ndef my_function(fname):\n  print(fname + \" Singh\")\nmy_function(\"Ankit\")",
+        "detail": "src.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "get_greeting",
+        "kind": 2,
+        "importPath": "src.functions.function",
+        "description": "src.functions.function",
+        "peekOfCode": "def get_greeting():\n  return(\"Good evening\")\n# message = get_greeting()\nprint(get_greeting())\ndef my_function(fname):\n  print(fname + \" Singh\")\nmy_function(\"Ankit\")\nmy_function(\"Akshit\")\nmy_function(\"Devesh\")",
+        "detail": "src.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "src.functions.function",
+        "description": "src.functions.function",
+        "peekOfCode": "def my_function(fname):\n  print(fname + \" Singh\")\nmy_function(\"Ankit\")\nmy_function(\"Akshit\")\nmy_function(\"Devesh\")",
+        "detail": "src.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "src.functions.lambda",
+        "description": "src.functions.lambda",
+        "peekOfCode": "def myfunc(n):\n  return lambda a : a * n\nmydoubler = myfunc(2)\nprint(mydoubler(11))",
+        "detail": "src.functions.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.functions.lambda",
+        "description": "src.functions.lambda",
+        "peekOfCode": "x = lambda a : a + 10\nprint(x(5))\nx = lambda a, b : a * b\nprint(x(5, 6))\nx = lambda a, b, c : a + b + c\nprint(x(5, 6, 2))\ndef myfunc(n):\n  return lambda a : a * n\nmydoubler = myfunc(2)\nprint(mydoubler(11))",
+        "detail": "src.functions.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.functions.lambda",
+        "description": "src.functions.lambda",
+        "peekOfCode": "x = lambda a, b : a * b\nprint(x(5, 6))\nx = lambda a, b, c : a + b + c\nprint(x(5, 6, 2))\ndef myfunc(n):\n  return lambda a : a * n\nmydoubler = myfunc(2)\nprint(mydoubler(11))",
+        "detail": "src.functions.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.functions.lambda",
+        "description": "src.functions.lambda",
+        "peekOfCode": "x = lambda a, b, c : a + b + c\nprint(x(5, 6, 2))\ndef myfunc(n):\n  return lambda a : a * n\nmydoubler = myfunc(2)\nprint(mydoubler(11))",
+        "detail": "src.functions.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "mydoubler",
+        "kind": 5,
+        "importPath": "src.functions.lambda",
+        "description": "src.functions.lambda",
+        "peekOfCode": "mydoubler = myfunc(2)\nprint(mydoubler(11))",
+        "detail": "src.functions.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "countdown",
+        "kind": 2,
+        "importPath": "src.functions.recursion",
+        "description": "src.functions.recursion",
+        "peekOfCode": "def countdown(n):\n  if n <= 0:\n    print(\"Done!\")\n  else:\n    print(n)\n    countdown(n - 1)\ncountdown(5)\ndef factorial(n):\n  # Base case\n  if n == 0 or n == 1:",
+        "detail": "src.functions.recursion",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "src.functions.recursion",
+        "description": "src.functions.recursion",
+        "peekOfCode": "def factorial(n):\n  # Base case\n  if n == 0 or n == 1:\n    return 1\n  # Recursive case\n  else:\n    return n * factorial(n - 1)\nprint(factorial(5))",
+        "detail": "src.functions.recursion",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "src.loops.while",
+        "description": "src.loops.while",
+        "peekOfCode": "num = 5\nwhile num > 0:\n    print(num)\n    num -= 1\nprint(\"Blast off!\")",
+        "detail": "src.loops.while",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "src.loops.while1",
+        "description": "src.loops.while1",
+        "peekOfCode": "i = 1\nwhile i < 6:\n  print(i)\n  i += 1",
+        "detail": "src.loops.while1",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "src.loops.while2",
+        "description": "src.loops.while2",
+        "peekOfCode": "i = 1\nwhile i <= 10:\n    print(f\"{i} - Saksham\")\n    i += 1",
+        "detail": "src.loops.while2",
+        "documentation": {}
+    },
+    {
+        "label": "temperature",
+        "kind": 5,
+        "importPath": "src.miscellanious.app",
+        "description": "src.miscellanious.app",
+        "peekOfCode": "temperature = 40\nif temperature > 30:\n    print(\"it's warm\")\n    print(\"Drink water\")\nelif temperature > 20:\n    print(\"it's nice\")\nelse:\n    print(\"it's cold\")",
+        "detail": "src.miscellanious.app",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.bool",
+        "description": "src.miscellanious.bool",
+        "peekOfCode": "x = 18\ny = 12\nif x > 12:\n    print(\"You are eligible\")\nelse:\n    print(\"Not eligible\")",
+        "detail": "src.miscellanious.bool",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.miscellanious.bool",
+        "description": "src.miscellanious.bool",
+        "peekOfCode": "y = 12\nif x > 12:\n    print(\"You are eligible\")\nelse:\n    print(\"Not eligible\")",
+        "detail": "src.miscellanious.bool",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.complex",
+        "description": "src.miscellanious.complex",
+        "peekOfCode": "x = 5  + 10j\ny = 5j\nz = -12j\nprint(x, y, z)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "src.miscellanious.complex",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.miscellanious.complex",
+        "description": "src.miscellanious.complex",
+        "peekOfCode": "y = 5j\nz = -12j\nprint(x, y, z)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "src.miscellanious.complex",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "src.miscellanious.complex",
+        "description": "src.miscellanious.complex",
+        "peekOfCode": "z = -12j\nprint(x, y, z)\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "src.miscellanious.complex",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "src.miscellanious.concatenate",
+        "description": "src.miscellanious.concatenate",
+        "peekOfCode": "a = \"Hello\"\nb = \"World\"\nc = a + \" \" + b\nprint(c)",
+        "detail": "src.miscellanious.concatenate",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "src.miscellanious.concatenate",
+        "description": "src.miscellanious.concatenate",
+        "peekOfCode": "b = \"World\"\nc = a + \" \" + b\nprint(c)",
+        "detail": "src.miscellanious.concatenate",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "src.miscellanious.concatenate",
+        "description": "src.miscellanious.concatenate",
+        "peekOfCode": "c = a + \" \" + b\nprint(c)",
+        "detail": "src.miscellanious.concatenate",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.conversion",
+        "description": "src.miscellanious.conversion",
+        "peekOfCode": "x = 10\ny = 12.1\nz = 1 + 2j\na = float(x)      # convert int to float\nb = complex(y)    # convert float into complex\nc = complex(z)     # convert int into complex\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))",
+        "detail": "src.miscellanious.conversion",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.miscellanious.conversion",
+        "description": "src.miscellanious.conversion",
+        "peekOfCode": "y = 12.1\nz = 1 + 2j\na = float(x)      # convert int to float\nb = complex(y)    # convert float into complex\nc = complex(z)     # convert int into complex\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))",
+        "detail": "src.miscellanious.conversion",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "src.miscellanious.conversion",
+        "description": "src.miscellanious.conversion",
+        "peekOfCode": "z = 1 + 2j\na = float(x)      # convert int to float\nb = complex(y)    # convert float into complex\nc = complex(z)     # convert int into complex\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))",
+        "detail": "src.miscellanious.conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "src.miscellanious.conversion",
+        "description": "src.miscellanious.conversion",
+        "peekOfCode": "a = float(x)      # convert int to float\nb = complex(y)    # convert float into complex\nc = complex(z)     # convert int into complex\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))",
+        "detail": "src.miscellanious.conversion",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "src.miscellanious.conversion",
+        "description": "src.miscellanious.conversion",
+        "peekOfCode": "b = complex(y)    # convert float into complex\nc = complex(z)     # convert int into complex\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))",
+        "detail": "src.miscellanious.conversion",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "src.miscellanious.conversion",
+        "description": "src.miscellanious.conversion",
+        "peekOfCode": "c = complex(z)     # convert int into complex\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))",
+        "detail": "src.miscellanious.conversion",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.dates",
+        "description": "src.miscellanious.dates",
+        "peekOfCode": "x = datetime.datetime.now()\nprint(x)",
+        "detail": "src.miscellanious.dates",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "src.miscellanious.even",
+        "description": "src.miscellanious.even",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nif num % 2 == 0:\n    print(\"Even number\")\nelse:\n    print(\"Odd number\")",
+        "detail": "src.miscellanious.even",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "src.miscellanious.file",
+        "description": "src.miscellanious.file",
+        "peekOfCode": "f = open(\"demofile.txt\",\"r\")\ndata = f.read()\nprint(data)\nf.close()",
+        "detail": "src.miscellanious.file",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "src.miscellanious.file",
+        "description": "src.miscellanious.file",
+        "peekOfCode": "data = f.read()\nprint(data)\nf.close()",
+        "detail": "src.miscellanious.file",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "src.miscellanious.global",
+        "description": "src.miscellanious.global",
+        "peekOfCode": "def myfunc():\n    x = \"fantastic\"\n    print(\"python is \" +x)\nmyfunc()\nprint(\"python is \" +x)",
+        "detail": "src.miscellanious.global",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.global",
+        "description": "src.miscellanious.global",
+        "peekOfCode": "x = \"good\"\ndef myfunc():\n    x = \"fantastic\"\n    print(\"python is \" +x)\nmyfunc()\nprint(\"python is \" +x)",
+        "detail": "src.miscellanious.global",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "src.miscellanious.largest",
+        "description": "src.miscellanious.largest",
+        "peekOfCode": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"A is larger\")\nelse:\n    print(\"B is larger\")",
+        "detail": "src.miscellanious.largest",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "src.miscellanious.largest",
+        "description": "src.miscellanious.largest",
+        "peekOfCode": "b = int(input(\"Enter second number: \"))\nif a > b:\n    print(\"A is larger\")\nelse:\n    print(\"B is larger\")",
+        "detail": "src.miscellanious.largest",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "a = min(12,45,100)  # min()\nb = max(12,45,100)  # max()\nx = abs(-23.43)     # absolute positive value\ny = pow(4,3)\nprint(x,a,b,y)\nimport math\ns = math.sqrt(81)    #Squareroot\nprint(s)\nr = math.ceil(2.3)\nt = math.floor(2.3)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "b = max(12,45,100)  # max()\nx = abs(-23.43)     # absolute positive value\ny = pow(4,3)\nprint(x,a,b,y)\nimport math\ns = math.sqrt(81)    #Squareroot\nprint(s)\nr = math.ceil(2.3)\nt = math.floor(2.3)\nprint(r,t)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "x = abs(-23.43)     # absolute positive value\ny = pow(4,3)\nprint(x,a,b,y)\nimport math\ns = math.sqrt(81)    #Squareroot\nprint(s)\nr = math.ceil(2.3)\nt = math.floor(2.3)\nprint(r,t)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "y = pow(4,3)\nprint(x,a,b,y)\nimport math\ns = math.sqrt(81)    #Squareroot\nprint(s)\nr = math.ceil(2.3)\nt = math.floor(2.3)\nprint(r,t)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "s = math.sqrt(81)    #Squareroot\nprint(s)\nr = math.ceil(2.3)\nt = math.floor(2.3)\nprint(r,t)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "r = math.ceil(2.3)\nt = math.floor(2.3)\nprint(r,t)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "src.miscellanious.math",
+        "description": "src.miscellanious.math",
+        "peekOfCode": "t = math.floor(2.3)\nprint(r,t)",
+        "detail": "src.miscellanious.math",
+        "documentation": {}
+    },
+    {
+        "label": "greeting",
+        "kind": 2,
+        "importPath": "src.miscellanious.mymodule",
+        "description": "src.miscellanious.mymodule",
+        "peekOfCode": "def greeting(name):\n  print(\"Hello, \" + name)",
+        "detail": "src.miscellanious.mymodule",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "src.miscellanious.natural",
+        "description": "src.miscellanious.natural",
+        "peekOfCode": "n = int(input(\"Enter a number: \"))\ntotal = 0\nfor i in range(1, n + 1):\n    total += i\nprint(\"Sum =\", total)",
+        "detail": "src.miscellanious.natural",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "src.miscellanious.natural",
+        "description": "src.miscellanious.natural",
+        "peekOfCode": "total = 0\nfor i in range(1, n + 1):\n    total += i\nprint(\"Sum =\", total)",
+        "detail": "src.miscellanious.natural",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.operators",
+        "description": "src.miscellanious.operators",
+        "peekOfCode": "x = 15\ny = 4\nprint(x + y)\nprint(x - y)\nprint(x * y)\nprint(x / y)\nprint(x % y)\nprint(x ** y)\nprint(x // y)",
+        "detail": "src.miscellanious.operators",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.miscellanious.operators",
+        "description": "src.miscellanious.operators",
+        "peekOfCode": "y = 4\nprint(x + y)\nprint(x - y)\nprint(x * y)\nprint(x / y)\nprint(x % y)\nprint(x ** y)\nprint(x // y)",
+        "detail": "src.miscellanious.operators",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "src.miscellanious.positive",
+        "description": "src.miscellanious.positive",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nif num > 0:\n    print(\"Positive\")\nelif num < 0:\n    print(\"Negative\")\nelse:\n    print(\"Zero\")",
+        "detail": "src.miscellanious.positive",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "src.miscellanious.RegEx",
+        "description": "src.miscellanious.RegEx",
+        "peekOfCode": "txt = \"The rain in Spain\"\nx = re.search(\"^The.*Spain$\", txt)\nif x:\n  print(\"YES! We have a match!\")\nelse:\n  print(\"No match\")\nprint(x)",
+        "detail": "src.miscellanious.RegEx",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.miscellanious.RegEx",
+        "description": "src.miscellanious.RegEx",
+        "peekOfCode": "x = re.search(\"^The.*Spain$\", txt)\nif x:\n  print(\"YES! We have a match!\")\nelse:\n  print(\"No match\")\nprint(x)",
+        "detail": "src.miscellanious.RegEx",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.miscellanious.variable",
+        "description": "src.miscellanious.variable",
+        "peekOfCode": "y = (\"Hello, World !\")\nprint (x)\nprint (y)",
+        "detail": "src.miscellanious.variable",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.operators.Arithmetic",
+        "description": "src.operators.Arithmetic",
+        "peekOfCode": "x = 15\ny = 4\nprint(x + y)\nprint(x - y)\nprint(x * y)\nprint(x / y)\nprint(x % y)\nprint(x ** y)\nprint(x // y)",
+        "detail": "src.operators.Arithmetic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.operators.Arithmetic",
+        "description": "src.operators.Arithmetic",
+        "peekOfCode": "y = 4\nprint(x + y)\nprint(x - y)\nprint(x * y)\nprint(x / y)\nprint(x % y)\nprint(x ** y)\nprint(x // y)",
+        "detail": "src.operators.Arithmetic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.operators.Condition",
+        "description": "src.operators.Condition",
+        "peekOfCode": "x = 5\ny = 3\nprint(x == y)\nprint(x != y)\nprint(x > y)\nprint(x < y)\nprint(x >= y)\nprint(x <= y)",
+        "detail": "src.operators.Condition",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "src.operators.Condition",
+        "description": "src.operators.Condition",
+        "peekOfCode": "y = 3\nprint(x == y)\nprint(x != y)\nprint(x > y)\nprint(x < y)\nprint(x >= y)\nprint(x <= y)",
+        "detail": "src.operators.Condition",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.operators.Logical",
+        "description": "src.operators.Logical",
+        "peekOfCode": "x = 5\nprint(x > 0 and x < 10)\nx = 5\nprint(x < 5 or x > 10)\nx = 5\nprint(x < 0 or x < 10)\nx = 5\nprint(not(x > 3 and x < 10))",
+        "detail": "src.operators.Logical",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.operators.Logical",
+        "description": "src.operators.Logical",
+        "peekOfCode": "x = 5\nprint(x < 5 or x > 10)\nx = 5\nprint(x < 0 or x < 10)\nx = 5\nprint(not(x > 3 and x < 10))",
+        "detail": "src.operators.Logical",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.operators.Logical",
+        "description": "src.operators.Logical",
+        "peekOfCode": "x = 5\nprint(x < 0 or x < 10)\nx = 5\nprint(not(x > 3 and x < 10))",
+        "detail": "src.operators.Logical",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "src.operators.Logical",
+        "description": "src.operators.Logical",
+        "peekOfCode": "x = 5\nprint(not(x > 3 and x < 10))",
+        "detail": "src.operators.Logical",
+        "documentation": {}
+    }
+]
