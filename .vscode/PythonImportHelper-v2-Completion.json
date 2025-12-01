@@ -67,6 +67,114 @@
         "documentation": {}
     },
     {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "classes.init_method",
+        "description": "classes.init_method",
+        "peekOfCode": "class Person:\n  def __init__(self, name, age):\n    self.name = name\n    self.age = age\np1 = Person(\"Emil\", 36)\nprint(p1.name)\nprint(p1.age)\nclass Person:\n  def __init__(self, name, age, city, country):\n    self.name = name",
+        "detail": "classes.init_method",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "classes.init_method",
+        "description": "classes.init_method",
+        "peekOfCode": "class Person:\n  def __init__(self, name, age, city, country):\n    self.name = name\n    self.age = age\n    self.city = city\n    self.country = country\np1 = Person(\"Linus\", 30, \"Oslo\", \"Norway\")\nprint(p1.name)\nprint(p1.age)\nprint(p1.city)",
+        "detail": "classes.init_method",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "classes.init_method",
+        "description": "classes.init_method",
+        "peekOfCode": "p1 = Person(\"Emil\", 36)\nprint(p1.name)\nprint(p1.age)\nclass Person:\n  def __init__(self, name, age, city, country):\n    self.name = name\n    self.age = age\n    self.city = city\n    self.country = country\np1 = Person(\"Linus\", 30, \"Oslo\", \"Norway\")",
+        "detail": "classes.init_method",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "classes.init_method",
+        "description": "classes.init_method",
+        "peekOfCode": "p1 = Person(\"Linus\", 30, \"Oslo\", \"Norway\")\nprint(p1.name)\nprint(p1.age)\nprint(p1.city)\nprint(p1.country)",
+        "detail": "classes.init_method",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "classes.oops",
+        "description": "classes.oops",
+        "peekOfCode": "class MyClass:\n  x = 5\np1 = MyClass()\np2 = MyClass()\np3 = MyClass()\nprint(p1.x)\nprint(p2.x)\nprint(p3.x)",
+        "detail": "classes.oops",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "classes.oops",
+        "description": "classes.oops",
+        "peekOfCode": "p1 = MyClass()\np2 = MyClass()\np3 = MyClass()\nprint(p1.x)\nprint(p2.x)\nprint(p3.x)",
+        "detail": "classes.oops",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "classes.oops",
+        "description": "classes.oops",
+        "peekOfCode": "p2 = MyClass()\np3 = MyClass()\nprint(p1.x)\nprint(p2.x)\nprint(p3.x)",
+        "detail": "classes.oops",
+        "documentation": {}
+    },
+    {
+        "label": "p3",
+        "kind": 5,
+        "importPath": "classes.oops",
+        "description": "classes.oops",
+        "peekOfCode": "p3 = MyClass()\nprint(p1.x)\nprint(p2.x)\nprint(p3.x)",
+        "detail": "classes.oops",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "classes.self",
+        "description": "classes.self",
+        "peekOfCode": "class Person:\n  def __init__(self, name, age):\n    self.name = name\n    self.age = age\n  def greet(self):\n    print(\"Hello, my name is \" + self.name)\np1 = Person(\"Emil\", 25)\np1.greet()\nclass Car:\n  def __init__(self, brand, model, year):",
+        "detail": "classes.self",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "classes.self",
+        "description": "classes.self",
+        "peekOfCode": "class Car:\n  def __init__(self, brand, model, year):\n    self.brand = brand\n    self.model = model\n    self.year = year\n  def display_info(self):\n    print(f\"{self.year} {self.brand} {self.model}\")\ncar1 = Car(\"Toyota\", \"Corolla\", 2020)\ncar1.display_info()",
+        "detail": "classes.self",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "classes.self",
+        "description": "classes.self",
+        "peekOfCode": "p1 = Person(\"Emil\", 25)\np1.greet()\nclass Car:\n  def __init__(self, brand, model, year):\n    self.brand = brand\n    self.model = model\n    self.year = year\n  def display_info(self):\n    print(f\"{self.year} {self.brand} {self.model}\")\ncar1 = Car(\"Toyota\", \"Corolla\", 2020)",
+        "detail": "classes.self",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "classes.self",
+        "description": "classes.self",
+        "peekOfCode": "car1 = Car(\"Toyota\", \"Corolla\", 2020)\ncar1.display_info()",
+        "detail": "classes.self",
+        "documentation": {}
+    },
+    {
         "label": "check_elif",
         "kind": 2,
         "importPath": "src.conditions.elif_examples",
