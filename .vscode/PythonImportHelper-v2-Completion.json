@@ -1,5 +1,22 @@
 [
     {
+        "label": "my_function",
+        "importPath": "src.functions.decorator",
+        "description": "src.functions.decorator",
+        "isExtraImport": true,
+        "detail": "src.functions.decorator",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -27,43 +44,28 @@
         "documentation": {}
     },
     {
-        "label": "check_if",
-        "importPath": "src.conditions",
-        "description": "src.conditions",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "src.conditions",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
-        "label": "check_else",
-        "importPath": "src.conditions",
-        "description": "src.conditions",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "src.conditions",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
-        "label": "check_elif",
-        "importPath": "src.conditions",
-        "description": "src.conditions",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "src.conditions",
-        "documentation": {}
-    },
-    {
-        "label": "check_statement",
-        "importPath": "src.conditions",
-        "description": "src.conditions",
-        "isExtraImport": true,
-        "detail": "src.conditions",
-        "documentation": {}
-    },
-    {
-        "label": "check_vote",
-        "importPath": "src.conditions",
-        "description": "src.conditions",
-        "isExtraImport": true,
-        "detail": "src.conditions",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -152,7 +154,7 @@
         "kind": 6,
         "importPath": "classes.self",
         "description": "classes.self",
-        "peekOfCode": "class Car:\n  def __init__(self, brand, model, year):\n    self.brand = brand\n    self.model = model\n    self.year = year\n  def display_info(self):\n    print(f\"{self.year} {self.brand} {self.model}\")\ncar1 = Car(\"Toyota\", \"Corolla\", 2020)\ncar1.display_info()",
+        "peekOfCode": "class Car:\n  def __init__(self, brand, model, year):\n    self.brand = brand\n    self.model = model\n    self.year = year\n  def display_info(self):\n    print(f\"{self.year} {self.brand} {self.model}\")\ncar1 = Car(\"Toyota\", \"Corolla\", 2020)\ncar1.display_info()\ncar2 = Car(\"Hyundai\", \"Creta\", 2018)",
         "detail": "classes.self",
         "documentation": {}
     },
@@ -170,7 +172,25 @@
         "kind": 5,
         "importPath": "classes.self",
         "description": "classes.self",
-        "peekOfCode": "car1 = Car(\"Toyota\", \"Corolla\", 2020)\ncar1.display_info()",
+        "peekOfCode": "car1 = Car(\"Toyota\", \"Corolla\", 2020)\ncar1.display_info()\ncar2 = Car(\"Hyundai\", \"Creta\", 2018)\ncar2.display_info()\ncar3 = Car(\"Maruti\", \"Swift\", 2010)\ncar3.display_info()",
+        "detail": "classes.self",
+        "documentation": {}
+    },
+    {
+        "label": "car2",
+        "kind": 5,
+        "importPath": "classes.self",
+        "description": "classes.self",
+        "peekOfCode": "car2 = Car(\"Hyundai\", \"Creta\", 2018)\ncar2.display_info()\ncar3 = Car(\"Maruti\", \"Swift\", 2010)\ncar3.display_info()",
+        "detail": "classes.self",
+        "documentation": {}
+    },
+    {
+        "label": "car3",
+        "kind": 5,
+        "importPath": "classes.self",
+        "description": "classes.self",
+        "peekOfCode": "car3 = Car(\"Maruti\", \"Swift\", 2010)\ncar3.display_info()",
         "detail": "classes.self",
         "documentation": {}
     },
@@ -807,6 +827,24 @@
     {
         "label": "my_function",
         "kind": 2,
+        "importPath": "src.functions.decorator",
+        "description": "src.functions.decorator",
+        "peekOfCode": "def my_function(func):\n    def my_inner():\n        return func().upper()\n    return my_inner\n@my_function\ndef my_function1():\n    return",
+        "detail": "src.functions.decorator",
+        "documentation": {}
+    },
+    {
+        "label": "my_function1",
+        "kind": 2,
+        "importPath": "src.functions.decorator",
+        "description": "src.functions.decorator",
+        "peekOfCode": "def my_function1():\n    return",
+        "detail": "src.functions.decorator",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
         "importPath": "src.functions.function",
         "description": "src.functions.function",
         "peekOfCode": "def my_function():\n  print(\"Hello from a function\")\nmy_function()\ndef get_greeting():\n  return(\"Good evening\")\n# message = get_greeting()\nprint(get_greeting())\ndef my_function(fname):\n  print(fname + \" Singh\")\nmy_function(\"Ankit\")",
@@ -874,6 +912,24 @@
         "description": "src.functions.lambda",
         "peekOfCode": "mydoubler = myfunc(2)\nprint(mydoubler(11))",
         "detail": "src.functions.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "time_log",
+        "kind": 2,
+        "importPath": "src.functions.practice",
+        "description": "src.functions.practice",
+        "peekOfCode": "def time_log(func):\n    def wrapper(*args, **kwargs):\n        print(\"Executing Function\")\n        start_time = datetime.datetime.now()\n        result = func(*args, **kwargs)\n        end_time = datetime.datetime.now()\n        time_taken = end_time - start_time\n        print(f\"{time_taken.total_seconds()} Total time taken by function\")\n        return result\n    return wrapper",
+        "detail": "src.functions.practice",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 2,
+        "importPath": "src.functions.practice",
+        "description": "src.functions.practice",
+        "peekOfCode": "def counter(x, sleep_time=1):\n    for x in range(1,x):\n        print(x)\n        time.sleep(sleep_time)\ncounter(10, 1)",
+        "detail": "src.functions.practice",
         "documentation": {}
     },
     {
@@ -1342,6 +1398,42 @@
         "description": "src.operators.Logical",
         "peekOfCode": "x = 5\nprint(not(x > 3 and x < 10))",
         "detail": "src.operators.Logical",
+        "documentation": {}
+    },
+    {
+        "label": "env_path",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "env_path = Path(__file__).parent / \".env\"\nload_dotenv(env_path) \nDATABASE_URL = os.getenv(\"DATABASE_URL\", \"sqlite:///default.db\")\nSECRET_KEY = os.getenv(\"SECRET_KEY\", \"dev-key\")\nDEBUG = os.getenv(\"DEBUG\", \"False\").lower() in (\"1\", \"true\", \"yes\")\nprint(f\"{DATABASE_URL},{SECRET_KEY},{DEBUG }\")\n# from src.conditions import check_if, check_else, check_elif, check_statement, check_vote\n# check_if()\n# check_else()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\", \"sqlite:///default.db\")\nSECRET_KEY = os.getenv(\"SECRET_KEY\", \"dev-key\")\nDEBUG = os.getenv(\"DEBUG\", \"False\").lower() in (\"1\", \"true\", \"yes\")\nprint(f\"{DATABASE_URL},{SECRET_KEY},{DEBUG }\")\n# from src.conditions import check_if, check_else, check_elif, check_statement, check_vote\n# check_if()\n# check_else()\n# check_elif()\n# check_statement()\n# check_vote()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"dev-key\")\nDEBUG = os.getenv(\"DEBUG\", \"False\").lower() in (\"1\", \"true\", \"yes\")\nprint(f\"{DATABASE_URL},{SECRET_KEY},{DEBUG }\")\n# from src.conditions import check_if, check_else, check_elif, check_statement, check_vote\n# check_if()\n# check_else()\n# check_elif()\n# check_statement()\n# check_vote()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"False\").lower() in (\"1\", \"true\", \"yes\")\nprint(f\"{DATABASE_URL},{SECRET_KEY},{DEBUG }\")\n# from src.conditions import check_if, check_else, check_elif, check_statement, check_vote\n# check_if()\n# check_else()\n# check_elif()\n# check_statement()\n# check_vote()",
+        "detail": "main",
         "documentation": {}
     }
 ]
